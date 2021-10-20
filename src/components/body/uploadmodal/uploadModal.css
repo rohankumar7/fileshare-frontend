@@ -1,0 +1,18 @@
+  .dragged .center {
+      z-index: 10;
+    transform: translateY(-5px);
+  }
+  .dragged .right {
+    transform: rotate(0deg) translateX(20px) translateY(10px);
+  }
+  .dragged .left {
+    
+    transform: rotate(0deg) translateX(40px) translateY(25px);
+  }
+  .dropzone.dragged {
+    background-color: #faefde;
+    border-color: #8d6c9f;
+  }
+  .center{
+      z-index: 10;
+  }
